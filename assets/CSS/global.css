@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    text-decoration: none;
+    font-family:'Ubuntu';
+    align-items: center;
+}
+
+header {
+    background: #2e948a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100%;
+}
+  
+  
+.logo {
+    margin: 1.25rem 0;
+}
+
+.container {
+    min-width: 90%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    padding: 0 1.25rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0.313rem 3.813rem;
+}
+
+header nav li {
+    margin: 2rem;
+}
+
+header nav a {
+    text-decoration: dashed;
+    color: #fdfdfd;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer {
+    background: #419488;
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo {
+    margin-top: 3rem;
+    padding-left: 6rem;
+}
+
+footer ul {
+    margin: 1.875rem 0;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 0.625rem;
+    list-style: none;
+}
+ 
+footer a {
+    text-decoration: dashed;
+    color: #fdfdfd;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.links {
+    padding-right: 5rem;
+}
+
+.links a {
+    border: 2px solid #fff;
+    border-radius: 62px;
+    padding: 1rem 3.25rem;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: lowercase;
+}
+  
