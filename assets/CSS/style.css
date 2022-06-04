@@ -103,7 +103,37 @@
     text-align: center;
 } 
 
+#about-us {
+    font-size: 37px;
+    color: #009688;
+    text-transform:uppercase ;
+    font-weight: 700;
+    margin: 5rem;
+    margin-bottom: 3rem;
+}
 
 .sobre-nos {
     display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+#sobre-nos-topico {
+    display: flex;
+    padding-bottom: 3rem;
+    padding-right: 15rem;
+}
+
+#sobre-nos-topico img {
+    max-width: 104px;
+    max-height: 104px;
+}
+
+#sobre-nos-topico div{
+    font-size: 18px;
+    padding: 1.5rem;
+    width: 420px;
+    text-align: left;
+    align-items: center;
 }
