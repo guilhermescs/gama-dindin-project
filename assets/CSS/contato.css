@@ -1,40 +1,61 @@
 main {
-    display: flex;
-    justify-content: space-between;
-    padding: 5rem 10rem;
+    padding-top: 105px;
 }
 
-#ilustra-contato {
-    min-height: 444px;
-    min-width:444px;
+form {
+    background: url(/assets/Imagens/ilustra-contato.png) 80% 50% no-repeat;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 840px 6.95rem 6.95rem;
 }
-form h1 {
-    font-weight: 700;
+
+fieldset {
+    border: none;
+}
+
+legend {
+    color: #ff4081;
     font-size: 40px;
-    line-height: 46px;
-    color: #FF4081;
+    font-weight: 700;
+    float: left;
+    margin: 0 0 44px;
+}
+
+form div {
+    clear: both;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 15px;
 }
 
 .form {
-    box-sizing: border-box;
-    left: 0.6%;
-    right: 0%;
-    top: 21.48%;
-    bottom: 70.88%;
-    background: #FFFFFF;
+    width: 100%;
+    width: 100%;
     border: 1px solid #686868;
+    outline: 0;
     border-radius: 7px;
+    padding: 10px 21px;
+    box-sizing: border-box;
 }
 
-.button {
-    position: absolute;
-    padding: 0.25rem 0.5rem;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FF4081;
+form input, textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    outline: 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    
+}
+
+
+form button {
+    background: #ff4081;
+    color: white;
+    padding: 10px 51px;
+    border: none;
     border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+
 }
