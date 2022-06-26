@@ -1,0 +1,14 @@
+main {
+    margin: 5rem 10rem 5rem 10rem;
+}
+
+.banner {
+    background: url(/assets/Imagens/ilustra-poupando.png) 80% 50% no-repeat;
+}
+
+.banner h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+}

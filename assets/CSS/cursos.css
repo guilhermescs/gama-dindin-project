@@ -1,0 +1,56 @@
+main {
+    margin: 5rem 10rem;
+    overflow: auto;
+}
+
+main div {
+    margin-bottom: 5rem;
+}
+
+main div h1 {
+    font-size: 60px;
+    color: #ff4081;
+    line-height: 69px;
+}
+
+main div p {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+article h2 {
+    color: #ff4081;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+article img {
+    float: left;
+    margin-right: 2rem;
+}
+
+article p {
+    margin: 2rem;
+}
+article a {
+    background: #419488;
+    color: white;
+    border-radius: 62px;
+    border: none;
+    padding: 8px 40px;
+    text-decoration: dashed;
+    text-transform: lowercase;
+}
+
+hr {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    border-width: 3px;
+    width: 99%;
+    border-style: inset;
+}
