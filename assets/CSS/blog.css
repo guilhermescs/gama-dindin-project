@@ -51,7 +51,7 @@ section h1 {
     margin-top: 3rem;
 }
 
-.conteudos h3 {
+.conteudos a {
     font-weight: 500;
     font-size: 30px;
     line-height: 34px;
@@ -60,6 +60,7 @@ section h1 {
     color: #FF4081;
     width: 455px;
     margin: 1rem 0 1rem 0;
+    text-decoration: dashed;
 }
 
 .conteudos p {

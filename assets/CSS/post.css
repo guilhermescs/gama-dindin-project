@@ -1,0 +1,123 @@
+.post {
+    margin-bottom: 5rem;
+}
+.post h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    padding-top: 5rem;
+}
+
+h6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+}
+
+.post img {
+    display: flex;
+    flex-direction: column;
+    width: 1032px;
+    height: 465px;
+    background: #c4c4c4;
+    align-items: center;
+    justify-content:space-between;
+    margin: auto;
+}
+
+.post p {
+    width: 1032px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.post h3 {
+    width: 1032px;
+    font-size: 26px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 3rem;
+    color: #419488;
+}
+
+
+#cursos {
+    display: flex;
+    flex-direction: column;
+    background:#f7f7f7;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+section h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    align-items: center;
+    color: #FF4081;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursos {
+    background-color: #f6f6f6;
+    display: flex;
+    padding: 6rem;
+    justify-content: space-between;
+}
+
+.cursos-index img {
+    max-width: 288px;
+    max-height: 270px;
+}
+
+.cursos-index a {
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    color: #fff;
+    background-color: #FF4081;
+    padding: 0.75rem 2.5rem;
+    text-decoration: dashed;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 1.3rem;
+    justify-content: center;
+}
+
+.cursos-index h3 {
+    padding-top: 2rem;
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28.73px;
+}
+
+.cursos-index p {
+    padding-top: 1.155rem;
+    padding-bottom: 2rem;
+    font-size: 17px;
+    width: 293px;
+    justify-content: center;
+}
+
+.cursos-index {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+} 
