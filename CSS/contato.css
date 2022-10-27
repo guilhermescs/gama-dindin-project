@@ -3,11 +3,11 @@ main {
 }
 
 form {
-    background: url(/assets/Imagens/ilustra-contato.png) 80% 50% no-repeat;
+    background: url(../Imagens/ilustra-contato.png) 80% 50% no-repeat;
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 0 840px 6.95rem 6.95rem;
+    padding: 0 50rem 6.95rem 6.95rem;
 }
 
 fieldset {
